@@ -1,0 +1,26 @@
+<div *ngIf="githubRepos">
+  <div  >
+    <ul class="flex flex-wrap justify-between w-full h-full p-[10px]">
+       
+      <li
+        *ngFor="
+          let repo of githubRepos
+            | paginate : { itemsPerPage: 10, currentPage: p1, id: 'first' }
+        "
+        class="flex items-start flex-col border justify-evenly bg-blue-200 shadow-[0_3px_10px_rgb(0,0,0,0.2)] border-black w-[300px] h-[250px] p-[10px] rounded-lg m-[10px] "
+      >
+        
+        <a [href]="repo.html_url" target="_blank" class="text-2xl font-bold">{{ repo.name }}</a>
+        <span>{{ repo.description }}</span>
+        <div *ngIf="repo.topics" class=" text-white-bold flex rounded-md font-medium">{{
+          repo.topics.join(", ")
+        }}</div><!-- Display tags if available -->
+      </li>
+    </ul>
+    <pagination-controls
+      (pageChange)="p1 = $event"
+      id="first"
+      class="custom-pagination"
+    ></pagination-controls>
+  </div>
+</div>

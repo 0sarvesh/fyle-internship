@@ -1,0 +1,33 @@
+<div
+  *ngIf="githubProfile"
+  class="flex w-[700px] h-[200px] justify-between items-center p-[20px]"
+>
+  <img
+    [src]="githubProfile?.avatar_url"
+    alt="no image"
+    class="w-[200px] h-[200px] rounded-[50%] bg-cover"
+  />
+  <div class="flex flex-col">
+    <h3 class="text-3xl">{{ githubProfile.name }}</h3>
+    <p>{{ githubProfile.bio }}</p>
+
+    <a [href]="githubProfile.twitter_username" target="_blank">{{
+      githubProfile.twitter_username
+    }}</a>
+    <a
+      [href]="githubProfile.html_url"
+      target="_blank"
+      class="bg-red-400 rounded-sm p-1 text-white"
+      >Profile</a
+    >
+    <div>
+      <a [href]="githubProfile.html_url" target="_blank">{{
+        githubProfile.html_url
+      }}</a>
+    </div>
+  </div>
+</div>
+
+<div *ngIf="!githubProfile">
+  <div></div>
+</div>
