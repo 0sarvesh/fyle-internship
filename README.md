@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Fyle Frontend Challenge
 
 ## Who is this for?
@@ -41,3 +42,7 @@ Run `ng serve` for a dev server. Navigate to http://localhost:4200/. The app wil
 
 Visit the [Angular Documentation](https://angular.io/guide/styleguide) to learn more.
 Styling is to be strictly done with [Tailwind](https://tailwindcss.com/docs/installation).
+=======
+# fyle-internship
+Fyle Internship 2024
+>>>>>>> d8717367f5c74427980cdcd51d932ebe83046d3b
