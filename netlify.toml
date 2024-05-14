@@ -1,9 +1,9 @@
 [build]
-base ="FYLE-INTERNSHIP-CHALLENGE-23"
-command ="npm run build:prod"
-publish ="dist/"
+    base ="FYLE-INTERNSHIP-CHALLENGE-23"
+    command ="npm run build:prod"
+    publish ="dist/"
 
-[[redirects]]
-from ="/*"
-to ="/index.html"
-status=200
+    [[redirects]]
+    from ="/*"
+    to ="/index.html"
+    status=200
