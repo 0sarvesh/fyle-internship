@@ -10,6 +10,7 @@ import { GithubReposComponent } from './components/github-repos/github-repos.com
 import { GithubProfileCardComponent } from './components/github-profile-card/github-profile-card.component';
 import { GithubProfileDataComponent } from './components/github-profile-data/github-profile-data.component';
 import { NgxSkeletonLoaderModule } from 'ngx-skeleton-loader';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +25,7 @@ import { NgxSkeletonLoaderModule } from 'ngx-skeleton-loader';
     HttpClientModule,
     FormsModule,
     NgxPaginationModule,
-    NgxSkeletonLoaderModule 
+    NgxSkeletonLoaderModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

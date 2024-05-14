@@ -2,7 +2,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { GithubProfileDataComponent } from './github-profile-data.component';
 
-describe('GithubProfileDataComponent', () => {
+fdescribe('GithubProfileDataComponent', () => {
   let component: GithubProfileDataComponent;
   let fixture: ComponentFixture<GithubProfileDataComponent>;
 

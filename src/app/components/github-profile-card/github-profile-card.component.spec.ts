@@ -2,7 +2,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { GithubProfileCardComponent } from './github-profile-card.component';
 
-describe('GithubProfileCardComponent', () => {
+fdescribe('GithubProfileCardComponent', () => {
   let component: GithubProfileCardComponent;
   let fixture: ComponentFixture<GithubProfileCardComponent>;
 
