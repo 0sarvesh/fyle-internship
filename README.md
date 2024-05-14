@@ -1,29 +1,6 @@
-<<<<<<< HEAD
-# Fyle Frontend Challenge
+## Challenge outline: Github Repositories listing page
 
-## Who is this for?
-
-This challenge is meant for candidates who wish to intern at Fyle and work with our engineering team. The candidate should be able to commit to at least 6 months of dedicated time for internship.
-
-## Why work at Fyle?
-
-Fyle is a fast-growing Expense Management SaaS product. We are ~40 strong engineering team at the moment. 
-
-We are an extremely transparent organization. Check out our [careers page](https://careers.fylehq.com) that will give you a glimpse of what it is like to work at Fyle. Also, check out our Glassdoor reviews [here](https://www.glassdoor.co.in/Reviews/Fyle-Reviews-E1723235.htm). You can read stories from our teammates [here](https://stories.fylehq.com).
-
-## Challenge outline
-
-This challenge involves implementing application using github api. 
-
-The services that you need to use are already implemented - check out ApiService.
-
-You can see details of this challenge [here](https://fyleuniverse.notion.site/fyleuniverse/Fyle-Frontend-development-challenge-cb5085e5e0864e769e7b98c694400aaa)
-
-__Note__ - This challenge is in angular. We work on angular frameworks & after you join we expect the same from you. Hence it is required to complete this assignement in angular itself.
-
-## What happens next?
-
-You will hear back within 48 hours from us via email.
+Design an Angular 14+ single-page application (SPA) that takes a GitHub username as input and displays the public Github repositories belonging to the user
 
 ## Installation
 
@@ -38,11 +15,19 @@ You will hear back within 48 hours from us via email.
 
 Run `ng serve` for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
 
-## Further help
+# Folder Structure
+1.Consist of 5 components where Github-app is the main component
+![Screenshot 2024-05-14 164510](https://github.com/0sarvesh/fyle-internship/assets/119318104/f21a0bfd-e06b-4932-93e5-d003969b533f)
 
-Visit the [Angular Documentation](https://angular.io/guide/styleguide) to learn more.
-Styling is to be strictly done with [Tailwind](https://tailwindcss.com/docs/installation).
-=======
-# fyle-internship
-Fyle Internship 2024
->>>>>>> d8717367f5c74427980cdcd51d932ebe83046d3b
+#Unit test 
+
+![Screenshot 2024-05-14 154759](https://github.com/0sarvesh/fyle-internship/assets/119318104/e8a9![FyleFrontendChallenge3](https://github.com/0sarvesh/fyle-internship/assets/119318104/25ea5b71-f82f-4c37-816c-3a9a78fc1cb4)
+23c9-dbbc-4c47-880d-3eb03666797a)
+![Screenshot 2024-05-14 154610](https://github.com/0sarvesh/fyle-internship/assets/119318104/1867155f-a3ee-4449-8cef-394847d4bd00)
+
+#FYLE Internship Challenge 2024 Output
+
+![FyleFrontendChallenge](https://github.com/0sarvesh/fyle-internship/assets/119318104/e3ddd97a-f553-4510-a0c5-9bba5721ca99)
+User needs to search for the github username![Uploading FyleFrontendChallenge3.png…]()
+
+
